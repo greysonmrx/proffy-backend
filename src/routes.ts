@@ -11,6 +11,7 @@ const routes = Router();
 routes.get('/classes', classesController.index);
 routes.post('/users', classesController.store);
 
+routes.get('/connections', connectionsController.index);
 routes.post('/connections', connectionsController.store);
 
 export default routes;
